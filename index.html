@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Electron introduction</title>
+        <link href="./style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <h4> version : <span id="version"></span></h4>
+        <br/>
+        <h4> pid : <span id="pid"></span></h4>
+        <hr/>
+        <p>Count : <span id="window-count">0</span></p>
+        <button id="new-window">Open new window</button>
+        <script>
+            require('./renderer.js')
+        </script>
+    </body>
+</html>
